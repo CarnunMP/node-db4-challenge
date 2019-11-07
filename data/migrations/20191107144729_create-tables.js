@@ -10,8 +10,7 @@ exports.up = function(knex) {
       table.increments('ingredient_id');
       table.string('ingredient_name', 128)
         .notNullable();
-      table.string('ingredient_unit', 128)
-        .notNullable();
+      table.string('ingredient_unit', 128);
     })
     .createTable('steps', table => {
       table.integer('recipe_id')
