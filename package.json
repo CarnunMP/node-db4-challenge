@@ -1,0 +1,28 @@
+{
+  "name": "node-db4-challenge",
+  "version": "1.0.0",
+  "description": "- database modeling.\r - migration scripts.\r - seeding.\r - knex.",
+  "main": "index.js",
+  "dependencies": {
+    "knex": "^0.20.1",
+    "knex-cleaner": "^1.3.0",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarnunMP/node-db4-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarnunMP/node-db4-challenge/issues"
+  },
+  "homepage": "https://github.com/CarnunMP/node-db4-challenge#readme"
+}
