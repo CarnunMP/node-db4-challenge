@@ -33,8 +33,9 @@ exports.up = function(knex) {
         .unsigned()
         .notNullable()
         .references('ingredient_id').inTable('ingredients');
+      table.primary(['recipe_id', 'ingredient_id']);
       table.decimal('quantity')
-        .notNullable();
+      .notNullable();
     })
 };
 
