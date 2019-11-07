@@ -27,5 +27,5 @@ function getInstructions(recipe_id) {
   return db('steps AS s')
     .select('s.step_intruction')
     .where({ 's.recipe_id': recipe_id })
-    .orderBy('asc');
+    .orderBy('s.step_number', 'asc');
 }
